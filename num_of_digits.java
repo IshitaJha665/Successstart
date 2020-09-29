@@ -1,7 +1,7 @@
  import java.util.*;
 public class num_of_digits
 {
-    int num,count;//instance variables
+    int num,count;
     void readNo()
     {
         Scanner sc= new Scanner(System.in);
@@ -10,7 +10,7 @@ public class num_of_digits
     }
     void digitSum()
     {
-        int n = num;//local variables
+        int n = num;
         int sum=0;
         while(n!=0)
         {
@@ -18,7 +18,7 @@ public class num_of_digits
             n=n/10;//will give all the except the last digit
             count++;
        }
-       System.out.println("The sum of the digitd in the no. is "+count);
+       System.out.println("The sum of the digits in the no. is "+count);
     }
      public static void main()
     {
